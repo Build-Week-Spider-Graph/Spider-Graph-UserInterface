@@ -5,7 +5,7 @@
   max-width: 100%;
   /*border: 1px solid greenyellow;*/
 }
-body {
+.body {
   background: url("../images/main.jpg") no-repeat center center fixed;
   background-size: cover;
 }
@@ -59,4 +59,27 @@ button a:active {
   text-decoration: none;
   text-shadow: 0px 1px 0px #263666;
   margin-top: 2%;
+}
+.container {
+  margin: 3%;
+}
+img {
+  width: 30%;
+  border-radius: 50%;
+}
+.about_img {
+  display: flex;
+  justify-content: center;
+}
+.about_paragraph {
+  text-align: center;
+  margin-top: 3%;
+}
+body {
+  background: lightgrey;
+}
+@media (max-width: 1000px) {
+  .container {
+    background: white;
+  }
 }

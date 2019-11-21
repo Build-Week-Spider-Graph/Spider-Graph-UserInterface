@@ -1,3 +1,5 @@
+@main_fonts: 'Cinzel', serif;
+
 * {
     box-sizing: border-box;
     margin: 0;
@@ -6,13 +8,13 @@
     /*border: 1px solid greenyellow;*/
 }
 
-body {
+.body {
     background: url("../images/main.jpg") no-repeat center center fixed;
     background-size: cover;
 }
 
 h1, a {
-    font-family: 'Cinzel', serif;
+    font-family: @main_fonts;
     text-decoration: none;
 }
 
